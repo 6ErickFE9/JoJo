@@ -1,0 +1,112 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(-jojo-s-bizarre-adventure-dio-brando-wallpaper-preview.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilização para o cabeçalho */
+#Cabeçalho {
+    background-color: #4e4d50;
+    padding: 10px; /* Espaçamento interno do cabeçalho */
+    margin-bottom: 20px; /* Espaçamento abaixo do cabeçalho */
+}
+
+/* Estilização para o navbar */
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+/* Estilização para as colunas */
+.coluna {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Estilização para o rodapé */
+#Rodapé {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#Rodapé p {
+    margin-bottom: 5px;
+}
+
+#Rodapé img {
+    max-width: 80px; /* Ajuste o tamanho do logo conforme necessário */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza o logo horizontalmente */
+}
+
+/* Estilos para o link no rodapé */
+#Rodapé a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#Rodapé a:hover {
+    color: #fff;
+}
+
+/* Estilização para os links específicos */
+.link-jojo {
+    background-color: transparent;
+    box-shadow: none;
+}

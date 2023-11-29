@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_form.css">
+    <title>Cadastro</title>
+</head>
+<body class="jojo-theme">
+    <div class="box">
+        <form id="meuFormulario">
+            <fieldset>
+                <legend>Dados Principais</legend>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="Nome" class="inputUser" required>
+                    <span class="labelInput">Nome Completo</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" name="idade" id="idade" class="inputUser" required>
+                    <span class="labelInput">Idade</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <span class="labelInput">Número de Telefone</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <span class="labelInput">Endereço</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="tipo-sanguineo" id="tipo-sanguineo" class="inputUser" required>
+                    <span class="labelInput">Tipo Sanguíneo</span>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados Secundários</legend>
+                <div class="inputBox">
+                    <input type="text" name="numero-cartao" id="numero-cartao" class="inputUser" required>
+                    <span class="labelInput">Número do Cartão de Crédito</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="nome-cartao" id="nome-cartao" class="inputUser" required>
+                    <span class="labelInput">Nome no Cartão</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="data-validade" id="data-validade" class="inputUser" required>
+                    <span class="labelInput">Data de Validade</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="cvv" id="cvv" class="inputUser" required>
+                    <span class="labelInput">CVV</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="conta-bancaria" id="conta-bancaria" class="inputUser" required>
+                    <span class="labelInput">Número da Conta Bancária</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="password" name="senha-banco" id="senha-banco" class="inputUser" required>
+                    <span class="labelInput">Senha do Banco</span>
+                </div>
+
+                <div class="inputBox">
+                    <p>Residência conta com segurança?</p>
+                    <input type="radio" id="seguranca-sim" name="seguranca" value="sim">
+                    <label for="seguranca-sim">Sim</label>
+
+                    <input type="radio" id="seguranca-nao" name="seguranca" value="nao">
+                    <label for="seguranca-nao">Não</label>
+                </div>
+
+                <div class="inputBox">
+                    <textarea name="tipos-seguranca" id="tipos-seguranca" class="inputUser" rows="4"></textarea>
+                    <span class="labelInput">Se sim, quais tipos de segurança?</span>
+                </div>
+            </fieldset>
+
+            <input type="submit" name="submit" id="submit" value="Enviar">
+            <br><br>
+            <button onclick="location.href='index.html'" class="btn-voltar">Voltar</button>
+        </form>
+
+        <script>
+            document.getElementById('meuFormulario').addEventListener('submit', function(event) {
+                // Evita o comportamento padrão de envio do formulário
+                event.preventDefault();
+    
+                // Redireciona para a página desejada após o envio do formulário
+                window.location.href = 'parabens.html';
+            });
+        </script>
+
+
+    </div>
+</body>
+</html>

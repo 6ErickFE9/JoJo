@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(the-world-star-platinum.gif);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #3498db;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Adicionando transição de cor */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Mudança de cor ao passar o mouse */
+  }
+  
+  button:active {
+    background-color: #1f618d; /* Mudança de cor ao clicar */
+  }
+  
+  
+  button:hover {
+    background-color: #2980b9; /* Mudança de cor ao passar o mouse */
+  }
+  
+  button:active {
+    background-color: #1f618d; /* Mudança de cor ao clicar */
+
+  }
+
+  .return-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ff2400;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .return-button:hover {
+    background-color: #e60000;
+  }
